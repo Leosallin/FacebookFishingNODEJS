@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  margin-right: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 400px;
+}
+.facebook-logo {
+  margin-bottom: 24px;
+}
+input[type=text], input[type=password] {
+  width: calc(100% - 20px);
+  padding: 14px;
+  margin-bottom: 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.login-button {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #165db6;
+}
+.separator {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dadde1;
+}
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+.signup-button {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+.signup-button:hover {
+  background-color: #36a420;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
+footer a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 4px;
+}
+img {
+  width: 300px;
+  float: left;
+  align: left;
+}
+h2 {
+  float: left;
+  clear: left;
+  width: 500px;
+}
+.text-container {
+  margin-left: 200px;
+}
